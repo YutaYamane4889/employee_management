@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+.submit_align{
+	text-align:center;
+	margin-top:10px;
+	}
+
+.submit_design{
+	width:200px;
+	height:50px;
+	font-size:1.2em;
+	font-weight:bold;
+	cursor:pointer;
+	color:#000000;
+	background:#ffffff;
+	box-shadow:1px 1px #666666;
+	}
+
+
+/*login.html*/
+.login_pass{
+	text-align:center;
+	font-size:x-large;
+}
+#text_password{
+	margin-right:20px;
+	height:35px;
+	margin-top:10px;
+}
+.login_botton{
+	width:150px;
+	height:50px;
+	font-size:1.2em;
+	margin-top:80px;
+	cursor:pointer;
+	color:#000000;
+	background:#ffffff;
+	box-shadow:1px 1px #666666;
+}
+/*logout*/
+h1{
+	border-left :solid 10px orange;
+	border-bottom: solid 1px gray;
+	padding: 10px
+}
+.logout_botton{
+	width:300px;
+	height:50px;
+	font-size:1.0em;
+	margin-top:100px;
+	cursor:pointer;
+	color:#000000;
+	background:#ffffff;
+	box-shadow:1px 1px #666666;
+}
+/*employee-list/*
+
+/*edit.jsp*/
+#test{
+	color: red;
+	text-align:center;
+}
+#edit {
+	text-align:center;
+}
+
+/*edit-confirm.jsp*/
+font {
+	color: red;
+}
+.sub{
+	text-align:center;
+}
+/*delete-confirm.jsp*/
+.delete_confirm{
+	margin: auto;
+
+	}
+td{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.d1{
+	text-align: center ;
+}
+
+/*リンク */
+a{
+
+	margin-top:10px;
+	font-size:x-large;
+
+	position: relative;
+	right: -550px;
+	display: block;
+}
+
+a:hover{
+ 	color : #ff7043;
+}
+.header{
+	height: 10%;
+ 	width: auto;
+ 	padding: 10px 0;
+ 	background: #FECB1B url(img/main.jpg) bottom right no-repeat;
+ 	color: #400040;
+}
+
