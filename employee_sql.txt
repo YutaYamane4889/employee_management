@@ -1,0 +1,33 @@
+create database emp_sys_db;
+
+create table m_user (
+  user_id varchar(255),
+  password varchar(255)
+);
+
+insert into m_user values("sato","taro");
+
+create table m_employee (
+  employee_code varchar(255),
+  last_name varchar(255),
+  first_name varchar(255),
+  last_kana_name varchar(255),
+  first_kana_name varchar(255),
+  gender BINARY(2),
+  birth_day date,
+  section_code varchar(255),
+  hire_date date,
+  update_datetime date
+);
+
+create table m_section(
+  section_code varchar(255),
+  section_name varchar(255)
+);
+
+INSERT INTO m_section VALUES ('S000', '所属部署未定');
+INSERT INTO m_section VALUES ('S110', '総務部');
+INSERT INTO m_section VALUES ('S130', '人事部');
+INSERT INTO m_section VALUES ('S150', '経理部');
+INSERT INTO m_section VALUES ('S210', '企画部');
+INSERT INTO m_section VALUES ('S230', '営業部');
